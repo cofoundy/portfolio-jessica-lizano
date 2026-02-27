@@ -1,0 +1,133 @@
+% Harvard-Format Professional CV — Jessica Lizano Amado
+% Compile with: xelatex cv-lizano.tex
+
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[margin=0.6in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+% --- Fonts (macOS system fonts) ---
+\setmainfont{Times New Roman}
+\setsansfont{Helvetica Neue}
+
+% --- Colors ---
+\definecolor{headrule}{HTML}{2c3e50}
+\definecolor{linkblue}{HTML}{1a5276}
+
+% --- Hyperlinks ---
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, pdfborder={0 0 0}}
+
+% --- Section Formatting ---
+\titleformat{\section}
+  {\large\bfseries\centering}
+  {}
+  {0em}
+  {\vspace{-0.4em}\hrulefill\quad}[\quad\hrulefill\vspace{-0.4em}]
+\titlespacing{\section}{0pt}{0.6em}{0.3em}
+
+% --- List Formatting ---
+\setlist[itemize]{nosep, left=0pt, label=\textbullet, itemsep=1pt, topsep=2pt}
+
+% --- No page numbers ---
+\pagestyle{empty}
+
+% --- Custom Commands ---
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} \hfill #2 \par\nopagebreak
+  \textit{#3} \hfill \textit{#4} \par\nopagebreak
+}
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\begin{center}
+  {\LARGE\bfseries Jessica Lizano Amado} \\[4pt]
+  \faIcon{map-marker-alt}\enspace Lima, Peru
+  \quad\faIcon{envelope}\enspace \href{mailto:jessica.lizano@gmail.com}{jessica.lizano@gmail.com}
+  \\[2pt]
+  \faIcon{linkedin}\enspace \href{https://www.linkedin.com/in/jessica-lizano-amado/}{linkedin.com/in/jessica-lizano-amado}
+  \quad\faIcon{globe}\enspace \href{https://jessica-lizano.cofoundy.dev}{jessica-lizano.cofoundy.dev}
+\end{center}
+
+\vspace{-0.4em}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{-0.8em}
+
+% ============================================
+% EXPERIENCE
+% ============================================
+\section{Experience}
+
+\entry{Alexa Translations}{Toronto, Canada (Remote)}{Jr Project Manager}{Mar 2025 --- Jan 2026}
+\begin{itemize}
+  \item Managed full lifecycle of 50+ translation and localization projects with a strong focus on client experience and satisfaction
+  \item Coordinated stakeholders across project scope, budget, timelines, and deliverables for corporate clients across Canada
+  \item Selected and managed linguistic resources to ensure 100\% on-time, within-budget delivery
+  \item Maintained strong relationships with 20+ recurring clients and contractors, driving repeat business
+\end{itemize}
+\vspace{0.3em}
+
+\entry{Alexa Translations}{Toronto, Canada (Remote)}{Project Coordinator}{May 2023 --- Mar 2025}
+\begin{itemize}
+  \item Managed translation and localization workflows for corporate clients across multiple industries
+  \item Coordinated internal and external resources across multilingual projects, ensuring quality standards
+\end{itemize}
+\vspace{0.3em}
+
+\entry{Stillman Translations}{Buenos Aires, Argentina (Remote)}{Project Manager}{Jan 2021 --- Apr 2023}
+\begin{itemize}
+  \item Managed complex multilingual projects across 10+ diverse subject areas for international clients
+  \item Prepared files using CAT tools (Trados Studio, MemoQ, Phrase) and created specialized quotes
+  \item Coordinated linguistic teams of 5--10 translators according to project specifications and deadlines
+\end{itemize}
+\vspace{0.3em}
+
+\entry{UPC --- Universidad Peruana de Ciencias Aplicadas}{Lima, Peru}{Lecturer --- Software 1}{Feb 2019 --- Present}
+\begin{itemize}
+  \item Designed and delivered CAT tools curriculum training 100+ translation students in Trados Studio, Phrase, and MemoQ
+  \item Mentored future translators in language technology tools, preparing them for an evolving global market
+\end{itemize}
+\vspace{0.3em}
+
+\entry{Voyageurs du Monde P\'{e}rou}{Lima, Peru}{Travel Account Manager / Concierge}{Jan 2019 --- Jul 2020}
+\begin{itemize}
+  \item Provided trilingual communication (Spanish, English, French) with sales teams in France and Canada
+  \item Managed quotes, invoicing, and hotel reservations for premium French travelers visiting Peru
+  \item Assisted French travelers as on-site Concierge, ensuring exceptional guest experience
+\end{itemize}
+\vspace{0.3em}
+
+% ============================================
+% EDUCATION
+% ============================================
+\section{Education}
+
+\entry{Universit\'{e} d'Angers}{Angers, France}{Specialization in Trilingual International Trade}{2016 --- 2017}
+\vspace{0.3em}
+
+\entry{Universit\'{e} d'Angers}{Angers, France}{Degree in Foreign Languages Applied to Commerce}{2015 --- 2016}
+\vspace{0.3em}
+
+\entry{Universidad Ricardo Palma}{Lima, Peru}{Bachelor's in Professional Translation and Interpretation (Spanish, English, French)}{2006 --- 2011}
+\vspace{0.3em}
+
+% ============================================
+% SKILLS & ADDITIONAL
+% ============================================
+\section{Skills \& Additional}
+
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Technical:} & Project Management, Trados Studio, MemoQ, Phrase, Plunet, HubSpot, InDesign, Microsoft Office \\
+\textbf{Languages:} & Spanish (Native), English (Fluent), French (Fluent) \\
+\textbf{Core Skills:} & Translation \& Localization, Team Management \& Coordination, Client Coordination \& Relationship Management \\
+\end{tabularx}
+
+\end{document}
