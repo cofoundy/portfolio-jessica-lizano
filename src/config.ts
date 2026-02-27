@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Jessica Lizano Amado",
-  title: "Project Manager | Traducción & Localización",
+  title: "Project Manager | Virtual Assistant | Customer Support Professional",
   description:
-    "Project Manager trilingüe con más de 10 años de experiencia gestionando proyectos de traducción y localización para empresas internacionales. Especialista en coordinar equipos multilingües y entregar resultados excepcionales.",
+    "I connect cultures and languages to turn local projects into global opportunities.",
 
   // 2-color system: accent (primary brand) + highlight (warm CTAs)
   accentColor: "#a78bfa", // Lavanda suave — creativa, profesional
@@ -10,14 +10,14 @@ export const siteConfig = {
 
   // Hero stats (3 max, short labels)
   stats: [
-    { value: "10+", label: "Años de experiencia" },
-    { value: "3", label: "Idiomas (ES/EN/FR)" },
-    { value: "5+", label: "Empresas internacionales" },
+    { value: "10+", label: "Years of experience" },
+    { value: "3", label: "Languages" },
+    { value: "5+", label: "Global companies" },
   ],
 
   // Hero tagline (short, impactful)
   tagline:
-    "Conecto culturas e idiomas para que tus proyectos lleguen al mundo.",
+    "I connect cultures and languages to turn local projects into global opportunities.",
 
   social: {
     email: "jessica.lizano@gmail.com",
@@ -25,18 +25,18 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "Soy una profesional trilingüe (español, inglés y francés) apasionada por tender puentes entre culturas a través del lenguaje. Con más de una década gestionando proyectos de traducción y localización para empresas en Canadá, Argentina y Francia, he desarrollado una visión integral del ciclo de vida de cada proyecto: desde la planificación estratégica hasta la entrega final. Además, como docente en la UPC, comparto mi experiencia formando a la próxima generación de traductores en herramientas de tecnología lingüística. Mi enfoque combina rigor técnico con sensibilidad cultural para garantizar que cada mensaje mantenga su esencia en cualquier idioma.",
+    "I am a trilingual professional (Spanish, English, and French) passionate about building bridges between cultures through language. As a trilingual professional (Spanish, English, and French), I am passionate about building meaningful bridges between cultures through language. For over a decade, I have partnered with companies across Canada, Argentina, and France to bring their ideas beyond borders, managing translation and localization projects from strategic planning to final delivery. Alongside my industry work, I teach at the university UPC, where I mentor future translators in language technology tools and prepare them for an evolving global market. I believe every message carries an essence; a cultural heartbeat. My role is to ensure it resonates authentically, no matter the language or audience.",
 
   skills: [
     "Project Management",
-    "Traducción & Localización",
+    "Translation & Localization",
+    "Team management and coordination",
+    "Client coordination and relationship management",
     "Trados Studio",
     "MemoQ",
     "Phrase",
     "Hubspot",
     "Plunet",
-    "Coordinación de Equipos",
-    "Gestión de Clientes",
     "CAT Tools",
     "InDesign",
     "Microsoft Office",
@@ -44,32 +44,32 @@ export const siteConfig = {
 
   projects: [
     {
-      name: "Gestión Multilingüe — Alexa Translations",
+      name: "CAT Tools Instruction — UPC",
       description:
-        "Lideré el ciclo completo de proyectos de traducción y localización para clientes corporativos en Canadá, coordinando equipos lingüísticos y asegurando entregas on-time y within-budget.",
+        "Designed and teach the Software 1 course at the Universidad Peruana de Ciencias Aplicadas, introducing translation students to Trados Studio, Phrase, and MemoQ.",
       link: "",
-      skills: ["Project Management", "Traducción", "Canadá"],
+      skills: ["Education", "Trados Studio", "MemoQ", "Phrase"],
     },
     {
-      name: "Docencia CAT Tools — UPC",
+      name: "High-Tech & eLearning Projects — Terra Translations",
       description:
-        "Diseñé y dicto el curso Software 1 en la Universidad Peruana de Ciencias Aplicadas, introduciendo a estudiantes de traducción en Trados Studio, Phrase y MemoQ.",
+        "Managed specialized translation projects in technology and e-learning, coordinating multilingual teams to deliver technically complex content on time and to the highest quality standards.",
       link: "",
-      skills: ["Educación", "Trados Studio", "MemoQ", "Phrase"],
+      skills: ["High Tech", "E-learning", "Project Management"],
     },
     {
-      name: "Proyectos High Tech & E-learning — Terra Translations",
+      name: "Multilingual Project Management — Alexa Translations",
       description:
-        "Gestioné proyectos de traducción especializados en tecnología y e-learning, coordinando equipos multilingües para entregas de alta complejidad técnica.",
+        "Led the full lifecycle of translation and localization projects for corporate clients across Canada. Coordinated cross-functional linguistic teams and ensured on-time, within-budget delivery while maintaining the highest quality standards.",
       link: "",
-      skills: ["High Tech", "E-learning", "Gestión de Proyectos"],
+      skills: ["Project Management", "Translation", "Canada"],
     },
     {
-      name: "Concierge Perú — Voyageurs du Monde",
+      name: "Trilingual Concierge — Voyageurs du Monde",
       description:
-        "Atendí a viajeros franceses durante su estadía en Perú como concierge trilingüe, gestionando reservas, cotizaciones y comunicación directa con el equipo de ventas en Francia.",
+        "Provided personalized support to French travelers in Peru as a trilingual concierge, handling reservations, quotes, and seamless communication with the France-based sales team to ensure an exceptional guest experience.",
       link: "",
-      skills: ["Turismo", "Francés", "Atención al Cliente"],
+      skills: ["Tourism", "French", "Customer Support"],
     },
   ],
 
@@ -77,12 +77,12 @@ export const siteConfig = {
     {
       company: "Alexa Translations",
       title: "Jr Project Manager",
-      dateRange: "Mar 2025 — Ene 2026",
+      dateRange: "Mar 2025 — Jan 2026",
       bullets: [
-        "Gestión del ciclo completo de proyectos de traducción con foco en experiencia del cliente",
-        "Coordinación de stakeholders: alcance, presupuesto, timelines y entregables",
-        "Selección y gestión de recursos lingüísticos para entregas on-time y within-budget",
-        "Mantenimiento de relaciones sólidas con clientes recurrentes y contratados",
+        "Managed the full lifecycle of translation projects with a strong focus on client experience",
+        "Coordinated stakeholders across project scope, budget, timelines, and deliverables",
+        "Selected and managed linguistic resources to ensure on-time, within-budget delivery",
+        "Maintained strong relationships with recurring clients and contractors",
       ],
     },
     {
@@ -90,62 +90,64 @@ export const siteConfig = {
       title: "Project Coordinator",
       dateRange: "May 2023 — Mar 2025",
       bullets: [
-        "Gestión de workflows de traducción y localización para clientes corporativos",
-        "Coordinación de recursos internos y externos en proyectos multilingües",
+        "Managed translation and localization workflows for corporate clients",
+        "Coordinated internal and external resources across multilingual projects",
       ],
     },
     {
       company: "Stillman Translations",
       title: "Project Manager",
-      dateRange: "Ene 2021 — Abr 2023",
+      dateRange: "Jan 2021 — Apr 2023",
       bullets: [
-        "Gestión de proyectos multilingües complejos en diversas temáticas",
-        "Preparación de archivos con herramientas CAT y cotizaciones especializadas",
-        "Coordinación de equipos lingüísticos según especificaciones del proyecto",
+        "Managed complex multilingual projects across diverse subject areas",
+        "Prepared files using CAT tools and created specialized quotes",
+        "Coordinated linguistic teams according to project specifications",
       ],
     },
     {
       company: "UPC — Universidad Peruana de Ciencias Aplicadas",
-      title: "Docente — Software 1",
-      dateRange: "Feb 2019 — Presente",
+      title: "Lecturer — Software 1",
+      dateRange: "Feb 2019 — Present",
       bullets: [
-        "Formación de estudiantes de traducción en herramientas CAT: Trados Studio, Phrase y MemoQ",
+        "Trained translation students in CAT tools, including Trados Studio, Phrase, and MemoQ",
       ],
     },
     {
       company: "Voyageurs du Monde Pérou",
       title: "Travel Account Manager / Concierge",
-      dateRange: "Ene 2019 — Jul 2020",
+      dateRange: "Jan 2019 — Jul 2020",
       bullets: [
-        "Comunicación trilingüe con equipo de ventas en Francia y Canadá",
-        "Gestión de cotizaciones, facturación y reservas hoteleras",
-        "Asistencia a viajeros franceses como Concierge Perú",
+        "Provided trilingual communication with sales teams in France and Canada",
+        "Managed quotes, invoicing, and hotel reservations",
+        "Assisted French travelers as a Concierge in Peru",
       ],
     },
   ],
 
   education: [
     {
-      school: "Université d'Angers, Francia",
-      degree: "Master 2 — Negociateur Trilingue en Commerce International",
+      school: "Université d'Angers, France",
+      degree: "Specialization in Trilingual International Trade",
       dateRange: "2016 — 2017",
-      achievements: [
-        "Especialización en comercio internacional trilingüe",
-      ],
+      achievements: [],
     },
     {
-      school: "Université d'Angers, Francia",
-      degree: "Master 1 — Langues Étrangères Appliquées et Commerce",
+      school: "Université d'Angers, France",
+      degree: "Degree in Foreign Languages Applied to Commerce",
       dateRange: "2015 — 2016",
-      achievements: ["Lenguas extranjeras aplicadas al comercio"],
+      achievements: [],
     },
     {
       school: "Universidad Ricardo Palma, Lima",
-      degree: "Traducción e Interpretación (Español, Inglés, Francés)",
+      degree: "Translation & Interpretation Studies (Spanish, English and French)",
       dateRange: "2006 — 2011",
-      achievements: [
-        "Formación trilingüe en traducción e interpretación profesional",
-      ],
+      achievements: [],
+    },
+    {
+      school: "Universidad Ricardo Palma, Lima",
+      degree: "Bachelor's in Professional Translation and Interpretation",
+      dateRange: "2006 — 2011",
+      achievements: [],
     },
   ],
 };
